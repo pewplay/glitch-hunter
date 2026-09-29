@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Glitch Hunter",
+  "description": "Blast neon glitches, smash the totems that corrupt the grid and survive six waves in this free retro twin-stick shooter in your browser.",
+  "about": "Glitch Hunter is a neon arcade shooter drawn in glowing vector lines on an old CRT screen. Strange geometric glitches invade your grid: you move freely around the arena, aim anywhere and pour out a steady stream of bullets while swarms, followers and heavy killers close in from every side.\n\nThe real threats are the totems. Pyramids, cubes and prisms summon new enemies and spread red corruption that slows you down, so you have to push into danger to destroy them. Your score is the time you survive, a warp dash lets you slip through tight gaps while the world slows, and the screen tears, twists and flickers as the glitches grow stronger across six waves up to a final summoning. Beat it to unlock a much harder mode.\n\nOriginally created by Giovanni Beltran (agar3s) for js13kGames 2016 as Evil Glitch.",
+  "howToPlay": "Stay alive as long as you can: your score grows every second you survive. Shoot the glitches before they touch you and destroy the totems, which keep summoning enemies and corrupting the floor around them. Use warp to dash through danger while time slows down, but you cannot shoot while warping.",
+  "controls": [
+    {
+      "input": "WASD / Arrow keys",
+      "action": "Move"
+    },
+    {
+      "input": "Mouse + Left click",
+      "action": "Aim and fire"
+    },
+    {
+      "input": "Right click / Space",
+      "action": "Warp time (dash)"
+    },
+    {
+      "input": "Left thumb (touch)",
+      "action": "Move with the virtual stick"
+    },
+    {
+      "input": "Right thumb + WARP button",
+      "action": "Aim and fire, warp time"
+    }
+  ],
+  "tips": [
+    "Destroy totems first: every second they live they summon more enemies and spread corruption that slows you.",
+    "Keep moving in wide circles around the arena instead of backing into a corner.",
+    "Save warp for emergencies, since it has a short cooldown and stops your fire while active.",
+    "Totems that take many hits flash when damaged, so keep your stream of bullets on one target until it breaks."
+  ],
+  "faq": [
+    {
+      "question": "Is Glitch Hunter free to play?",
+      "answer": "Yes, it is completely free and runs in your browser with nothing to install."
+    },
+    {
+      "question": "Can I play Glitch Hunter on a phone or tablet?",
+      "answer": "Yes, touch devices get twin-stick controls with a warp button; it plays best in landscape or on a tablet, where the arena is bigger."
+    },
+    {
+      "question": "What happens after I beat the last wave?",
+      "answer": "Defeating the final summoning plays the ending and unlocks Evil Mode, a much harder endless challenge you can start from the title screen."
+    }
+  ],
+  "category": "Action",
+  "tags": [
+    "shooter",
+    "twin-stick",
+    "neon",
+    "retro",
+    "arcade",
+    "survival"
+  ],
+  "author": "Giovanni Beltran (agar3s)",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.jpg",
+    "screenshots/2.jpg",
+    "screenshots/3.jpg"
+  ],
+  "added": "2026-09-28",
+  "draft": false
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Glitch Hunter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="c"></canvas>
+  <canvas id="g"></canvas>
+  <div id="stickL" class="stick" aria-hidden="true"><div class="knob"></div></div>
+  <div id="stickR" class="stick" aria-hidden="true"><div class="knob"></div></div>
+  <button id="warp" type="button" aria-label="Warp time">WARP</button>
+</div>
+<button id="mute" type="button" aria-label="Mute" title="Mute (M)">
+  <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="cross" d="M16 9l6 6M22 9l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+</button>
+<div id="nogl"><p>Glitch Hunter needs WebGL.<br>Please enable hardware acceleration or try another browser.</p></div>
+<script src="game.js"></script>
+</body>
+</html>
